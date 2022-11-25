@@ -1,0 +1,93 @@
+body{
+    background-color: beige;
+}
+
+.main{
+    color: red;
+    text-align: center;
+    font-size: 6rem;
+    font-family: cursive;
+}
+@keyframes Paramain{
+    from{background-color: white;}
+    to{background-color: black;}
+    
+}
+.image{
+    background-color: black;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    animation-name: Paramain;
+    animation-duration: 5s;
+}
+.img{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 4rem;
+    width: 30rem;
+    height: 25rem;
+
+}
+
+.paraIntro{
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.paraMain{
+ 
+    
+   /* background-color: aliceblue;*/
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 1.5rem;
+
+}
+
+.para{
+    background-color: black;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 1.5rem; 
+}
+
+.paraText{
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+.ports{
+    padding-right: 1rem;
+    width: 30rem;
+    border-radius: 1rem;
+    float: left;
+}
+
+.GPUText{
+    padding-left: 1rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+.gpu_header{
+    color: red;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.footer{
+     border: 10rem;   
+}
+.FooterCustom{
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
