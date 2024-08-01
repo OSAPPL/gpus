@@ -1,0 +1,102 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
+
+.background{
+    background-image: url("background.png");
+    background-size: 110%;
+    overflow: hidden;
+}
+
+
+.bg{
+    background-image: url("background.png");
+    background-size: cover;
+    filter: blur(10px);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.boy{
+    height: 260px;
+    margin-top: 395px;
+    position: absolute;
+}
+
+.flame{
+    height: 160px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 480px;
+}
+
+.score{
+    color: black;
+    font-family: "Comic Neue";
+    font-style: bold;
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 35px;
+    position: absolute;
+    transition: 0.45s;
+    
+   
+
+  }
+
+
+#h1{  color: black;
+    font-family: "Comic Neue";
+    font-style: bold;
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 35px;
+    position: absolute;
+    transition: 0.45s;}
+
+    #h2{  color: black;
+        font-family: "Comic Neue";
+        font-style: bold;
+        font-size: 75px;
+        font-weight: bold;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        padding-top: 250px;
+        transition: 0.45s;}
+    
+    
+
+        #btn{  color: black;
+            background-color: red;
+            color: aliceblue;
+            text-align: center;
+            font-family: "Comic Neue";
+            font-style: bold;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+            transition: 0.45s;}
+        
+        
+
+           
